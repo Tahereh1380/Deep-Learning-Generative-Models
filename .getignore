@@ -1,0 +1,52 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.vscode/
+.idea/
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.pkl
+*.pickle
+
+# Large generated model files
+*.onnx
+*.h5
+*.hdf5
+
+# Training outputs and logs
+runs/
+logs/
+checkpoints/
+wandb/
+
+# Generated audio files
+*.mp3
+*.flac
+*.wav
+
+# Temporary files
+*.tmp
+*.log
